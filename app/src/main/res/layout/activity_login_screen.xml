@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/button_bg"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="Login Now" />
+
+        <TextView
+            android:layout_width="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/button_bg"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:text="Please Login to continue using the App" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:hint="Enter Password"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_primary_bg"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Log in" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/button_bg"
+            android:layout_marginTop="20dp"
+            android:text="Dont't have an account? Signup" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
