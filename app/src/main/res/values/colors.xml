@@ -3,9 +3,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="cyan">#00cba9</color>
+
     <color name="background_edittext">#EDF8F6</color>
     <color name="border_edittext">#ABC5C0</color>
     <color name="button_bg">#222E75</color>
+    <color name="red">#E62222</color>
 
 
 </resources>

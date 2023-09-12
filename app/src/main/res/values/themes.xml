@@ -4,6 +4,9 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+    <style name="AppThemeWithActionBar" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+
+    </style>
 
     <style name="Theme.QuizApp" parent="Base.Theme.QuizApp" />
 </resources>

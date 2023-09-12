@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpScreen">
+    tools:context=".activities.SignUpScreen">
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -32,7 +32,7 @@
             android:text="Enter your email and password to register and start using this app" />
 
         <EditText
-            android:id="@+id/editTextEmail"
+            android:id="@+id/editText_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Email"
@@ -60,7 +60,7 @@
             android:ems="10"
             android:inputType="textPassword" />
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/buttonLogin"
+            android:id="@+id/buttonSignUp"
             android:layout_width="match_parent"
             android:layout_marginTop="30dp"
             android:background="@drawable/button_primary_bg"
@@ -69,7 +69,7 @@
             android:text="Register" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textview_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"

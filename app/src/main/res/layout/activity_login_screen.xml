@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginScreen">
+    tools:context=".activities.LoginScreen">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -33,18 +33,17 @@
             android:text="Please Login to continue using the App" />
 
         <EditText
-            android:id="@+id/editTextEmail"
+            android:id="@+id/editText_login_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Email"
-
             android:background="@drawable/edittext_bg"
             android:layout_marginTop="30dp"
             android:ems="10"
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/editTextPassword"
+            android:id="@+id/editText_login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edittext_bg"
@@ -63,7 +62,7 @@
             android:text="Log in" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textview_sign_up"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"

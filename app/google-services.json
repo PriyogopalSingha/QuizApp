@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294549874487",
+    "project_id": "quizapp-936cf",
+    "storage_bucket": "quizapp-936cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294549874487:android:925884c3fe662801d51cb2",
+        "android_client_info": {
+          "package_name": "com.dullgames.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294549874487-voftpn3j552k2vgpjdi5eknkt7it0erd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKCFzdw7rKBo21pX5wAZv4KdiNTm1K5o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294549874487-voftpn3j552k2vgpjdi5eknkt7it0erd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

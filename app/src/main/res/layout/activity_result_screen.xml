@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ResultScreen">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/button_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/prize"
+            />
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: 20"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
